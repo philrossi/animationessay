@@ -1,0 +1,100 @@
+/*normalized*/
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+body {
+  margin: 0;
+  max-width: 70em;
+}
+header,
+footer {
+  display: block;
+}
+/*mobile*/
+/*general*/
+a {
+  color: #06f;
+}
+/*header*/
+header {
+  margin: 1.5em;
+}
+h1 {
+  font: normal normal 2em/1.25 Georgia, serif;
+  border-bottom: .5px solid #666;
+  padding-bottom: .5em;
+}
+#heading p {
+  font: bold normal .85em/1 Georgia, serif;
+  text-transform: uppercase;
+}
+#heading .author {
+  font-size: .7em;
+  border-bottom: .3px solid #666;
+  padding-bottom: 1.2em;
+}
+/*paragraphs*/
+#article p {
+  font: normal normal 1.1em/1.375 "Times New Roman", serif;
+  margin: 0 1.5em;
+  padding: .75em 0;
+}
+/*bibliography*/
+#bibliography {
+  border-top: 2px solid #999;
+  margin: 1.5em;
+}
+#bibliography h2 {
+  font: normal normal 1.2em/1 Georgia, serif;
+  color: #666;
+}
+#bibliography p {
+  font: normal normal .9em/1.15 "Times New Roman", serif;
+}
+/*footer*/
+footer {
+  font: normal normal .9em/1.15 "Times New Roman", serif;
+  color: #666;
+  margin: 1.5em;
+}
+
+@media (min-width: 30em) {
+  header {
+    margin: 2.5em;
+  }
+  h1 {
+    font: normal normal 2em/1.25 Georgia, serif;
+  }
+  #heading .author {
+    font-size: .75em;
+  }
+  #article p {
+    font-size: 1.15em;
+    margin: 2.5em;
+  }
+  #bibliography {
+    margin: 2.8em;
+  }
+}
+@media (min-width: 60em) {
+  header {
+    margin: 4.5em;
+  }
+  h1 {
+    font: normal normal 2.35em/1.25 Georgia, serif;
+  }
+  #article p {
+    font-size: 1.1em;
+    margin: 0 9em;
+  }
+  #bibliography {
+    margin: 0 10em;
+  }
+  #bibliography h2 {
+    font-size: .9em;
+  }
+  footer {
+    padding-top: 1em;
+  }
+}
